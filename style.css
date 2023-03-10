@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+
+/* ==================== nav started ======================= */
+
+nav {
+  background: #313131;
+  padding-top: 12px;
+}
+
+.list {
+  display: flex;
+  gap: 30px;
+}
+
+.list_item {
+  font-weight: 400;
+  font-size: 14px;
+  color: #ffffff;
+}
+
+.box {
+  display: flex;
+  gap: 30px;
+  color: white;
+}
+
+.phone_number a {
+  font-weight: 400;
+  font-size: 14px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.dos a {
+  font-weight: 400;
+  font-size: 14px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.fa-solid {
+  margin-right: 10px;
+}
+
+/* ========================= header started =========================*/
+
+header {
+  padding-top: 20px;
+}
+
+.inp {
+  border: 1px solid #e6e6e6;
+  outline: none;
+  padding: 14px 480px 14px 50px;
+  color: grey;
+}
+
+.fa-heart {
+  font-size: 20px;
+}
+
+.fa-bag-shopping {
+  font-size: 20px;
+}
+
+.fa-user {
+  font-size: 20px;
+}
