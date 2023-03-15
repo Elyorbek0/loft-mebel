@@ -68,6 +68,13 @@ header {
   color: grey;
 }
 
+
+.search{
+  position: absolute;
+  margin-top: 18px;
+  margin-left: 15px;
+}
+
 .fa-heart {
   font-size: 20px;
 }
@@ -79,3 +86,277 @@ header {
 .fa-user {
   font-size: 20px;
 }
+
+
+/* =================== hero started ===================== */
+
+.hero .ul{
+  display: flex;
+  gap: 40px;
+  margin-top: 20px;
+  padding: 25px 40px;
+  background: #FFFFFF;
+box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.07);
+}
+
+.ul-item a{
+font-weight: 400;
+font-size: 16px;
+color: #414141;
+text-decoration: none;
+margin-left: 10px;
+transition: color  0.3s ease-in-out ;
+}
+
+
+.ul-item a:hover{
+  color: #D74444;
+}
+
+
+
+.demo{
+  position: absolute;
+  margin-top: -300px;
+  margin-left: 120px;
+  width: 324px;
+}
+
+
+.demo span{
+  font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 700;
+font-size: 50px;
+line-height: 105.3%;
+letter-spacing: 0.02em;
+text-transform: uppercase;
+color: #3C3C3C;
+}
+
+
+.demo p{
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 140.8%;
+letter-spacing: 0.02em;
+color: #343434;
+margin-top: 14px;
+margin-bottom: 20px;
+}
+
+.demo button{
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 140.8%;
+letter-spacing: 0.04em;
+color: #414141;
+background: #FFFFFF;
+box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.07);
+padding: 14px 25px ;
+border: none;
+cursor: pointer;
+}
+
+
+
+.carousel-control-prev{
+  background: rgba(157, 157, 157, 0.28);
+  width: 40px;
+height: 40px;
+margin-top: 210px;
+margin-left: 48px;
+padding: 8px 9px;
+transition: 0.3s ease-in;
+}
+
+
+.carousel-control-prev:hover{
+  background: #313131;
+}
+
+.carousel-control-next{
+  background: rgba(157, 157, 157, 0.28);
+  width: 40px;
+height: 40px;
+margin-top: 210px;
+margin-right: 48px;
+padding: 8px 9px;
+transition: 0.3s ease-in;
+}
+
+
+.carousel-control-next:hover{
+  background: #313131;
+}
+
+
+
+/* =================== hero finished ===================== */
+
+
+/* =================== main started ===================== */
+
+
+.Bestsellerlar h2{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #414141;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+.card{
+  padding: 20px;
+  border: none;
+}
+
+.card i{
+  display: flex;
+  justify-content: end;
+  margin-bottom: 38px;
+  cursor: pointer;
+}
+
+.card h3{
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+color: #414141;
+margin-top: 53px;
+}
+
+.card p{
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 11px;
+line-height: 13px;
+color: #414141;
+margin-top: 6px;
+margin-bottom: 9px;
+}
+
+.card span{
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+color: #414141;
+}
+
+
+
+/*  ========================= main finished ============== */
+
+
+
+/*  ========================= footer started ============== */
+
+
+footer{
+  padding-top: 96px;
+}
+
+footer .end_st h5{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 126.69%;
+  color: #000000;
+  margin-left: 19px;
+  margin-bottom: 10px;
+}
+
+
+
+.difp{
+  display: flex;
+  justify-content: space-between
+}
+
+footer .uls{
+  display: flex;
+  margin-left: -12px;
+  gap: 50px;
+}
+
+footer .end_st ul li a{
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 126.69%;
+color: #414141;
+text-decoration: none;
+}
+
+footer .end_odour{
+  width: 171px;
+}
+
+
+footer .end_odour img{
+  margin-left: 110px;
+}
+
+
+footer .end_odour p{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 126.69%;
+color: #414141;
+margin-top: 20px;
+}
+
+.finish {
+  display: flex;
+  gap: 10px;
+  margin-top: 34px;
+}
+
+.finish a{
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 126.69%;
+color: #414141;
+transition: 0.3s ease-out;
+text-decoration: none;
+margin-left: 20px;
+}
+
+
+.finish a:hover{
+  color: #D74444;
+}
+
+.finish ul {
+  display: flex;
+  margin-left: 385px;
+  gap: 30px;
+}
+
+
+.finish ul li a{
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 126.69%;
+text-align: right;
+color: #414141;
+}
+
